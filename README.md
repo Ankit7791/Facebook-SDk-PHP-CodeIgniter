@@ -80,10 +80,10 @@ and press enter. This will install the composer on your project. As soon as the 
 	}
 	?>
 23. Create a view > user_data.php to show the details of the user logged in.
-24. <h1>Welcome <?=$user['first_name'].' '.$user['last_name']; ?></h1>
-	<p>Email Address: <?= $user['email'];?></p>
-	<p>Picture: <img src="<?=$user['picture']['data']['url'];?>"></p>
-	<a href="<?= base_url(); ?>Signin/logout">Logout</a>
+24. Welcome <?=$user['first_name'].' '.$user['last_name']; ?>
+	Email Address: <?= $user['email'];?>
+	Picture: <img src="<?=$user['picture']['data']['url'];?>">
+	
 25. After the login you should now see the data of the user login.
 26. Click the logout button to destroy the session and logout the user from project.
 
